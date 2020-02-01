@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" href = "style.css">
+  <meta charset="UTF-8">
+  <title>Edit your profile</title>
+  <meta name = "description" content = " ">
+  <meta name = "keywords" content = "medical, report, medical history, doctor, patient, illness, heal, health, e-health, diagnostic, prescription, treatement, emergency, emergency room, hospital, sick, sickness, illness, medical test, results">
+  <meta name = "author" content = "Draganescu Ioana-Lisandra, Palagesiu Cezar-Ioan, Poenaru Diana-Mihaela">
+  <meta http-equiv="refresh" content="500">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div className = {styles.menu}>
+    <a className = {styles.menulogin} href = "login.html">Login</a>
+    <a className = {styles.menusignup} href = "signup.html">Sign up</a>
+    <a className = {styles.menuprofile} href = "doctorprofile.html">Your profile</a>
+    <button className = {styles.logout} type = "submit">Logout</button>
+    <input className = {styles.search} type = "text" placeholder = "Search" name = "search">
+  </div>
+  <form>
+    <div className = {style.Container1}>
+      <div className = {styles.Container2}>
+	<h1 className = {styles.headline}>Edit your profile</h1>
+      </div>
+      <div className = {styles.Container2}>
+	<label className = {styles.firstname_label} for = "first-name">First name</label>
+	<div className = {styles.firstname_div}>
+	  <input className = {styles.firstname_input} type = "text" placeholder = "Enter first name" name = "first-name"/>
+	</div> 
+
+	<label className = {styles.lastname_label} for = "last-name">Last name</label>
+	<div className = {styles.lastname_div}>
+	  <input className = {styles.lastname_input} type = "text" placeholder = "Enter last name" name = "last-name"/>
+	</div>
+
+        <label className = {styles.hospitalname_label} for = "hospitalname"> Hospital's/doctor's office's name </label>
+        <div className = {styles.hospitalname_div}>
+          <input className = {styles.hospitalname_input} type = "text" placeholder = "Enter the name" name = "hospitalname"/>
+        </div> 
+
+        <label className = {styles.address_label} for = "address" > Hospital's/doctor's office's address</label>
+	<div className = {styles.address_div}>
+	  <input className = {styles.address_input} type = "text" placeholder = "Enter the address " name = "address"/>
+	</div> 
+
+	<label className = {styles.phonenr_label} for = "phonenr">Phone number</label>
+	<div className = {styles.phonenr_div}>
+	  <input className = {styles.phonenr_input} type = "text" placeholder = "Enter phone number" name = "phonenr"/>
+	</div> 
+
+	<label className = {styles.id_label} for = "ID">Photo of your identity card</label>
+	<div className = {styles.id_div}>
+	  <input className = {styles.id_input} type = "file" name = "ID"/>
+	</div>
+
+        <label className = {styles.profilephoto_label} for = "profile-photo" >Upload your profile photo </label>
+	<div className = {styles.profilephoto_div}>
+	  <input className = {styles.profilephoto_input} type = "file" name = "profile-photo"/>
+	</div> 
+
+        <label className = {styles.gender_label} for = "gender"> Choose your gender </label>
+	<div className = {styles.gender_div}>
+	  <input className = {styles.gender_input} type = "radio" name = "gender "> Male </input>
+	</div> 
+	<div className = {styles.gender_div}>
+	  <input className = {styles.gender_input} type = "radio" name = "gender "> Female </input>
+	</div>
+
+	<label className = {styles.description_label} for = "description">Details about yourself and your experience in the medical field </label>
+	<div className = {styles.description_div}>
+	  <input className = {styles.description_input} type = "text" placeholder = "Description" name = "description"/>
+	</div> 
+      </div>
+
+      <div className = {styles.Container2}>
+	<button className = {styles.button} type = "submit">Submit changes</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>

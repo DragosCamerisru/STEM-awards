@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit your profile</title>
+  <link rel = "stylesheet" href = "style.css">
+  <meta charset="UTF-8">
+<!--pune description-->
+  <meta name = "description" content = " ">
+  <meta name = "keywords" content = "medical, report, medical history, doctor, patient, ill, heal, health, e-health, diagnostic, prescription, treatement, emergency, emergency room, hospital, sick, sickness, illness, medical test, results">
+  <meta name = "author" content = "Draganescu Ioana-Lisandra, Palagesiu Cezar-Ioan, Poenaru Diana-Mihaela"> 
+  <meta http-equiv="refresh" content="500">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div className = {styles.menu}>
+    <a className = {styles.menulogin} href = "login.html">Login</a>
+    <a className = {styles.menusignup} href = "signup.html">Sign up</a>
+    <a className = {styles.menuprofile} href = "userprofile.html">Your profile</a>
+    <button className = {styles.logout} type = "submit">Logout</button>
+    <input className = {styles.search} type = "text" placeholder = "Search" name = "search">
+  </div>
+  <form>
+    <div className = {style.Container1}>
+      <div className = {styles.Container2}>
+	<h1 className = {styles.headline}>Edit your profile</h1>
+      </div>
+      <div className = {styles.Container2}>
+	<label className = {styles.firstname_label} for = "first-name">First name</label>
+	<div className = {styles.firstname_div}>
+	  <input className = {styles.firstname_input} type = "text" placeholder = "Enter first name" name = "first-name"/>
+	</div> 
+
+	<label className = {styles.lastname_label} for = "last-name">Last name</label>
+	<div className = {styles.lastname_div}>
+	  <input className = {styles.lastname_input} type = "text" placeholder = "Enter last name" name = "last-name"/>
+	</div> 
+
+	<label className = {styles.pnc_label} for = "pnc">Social security number</label>
+	<div className = {styles.pnc_div}>
+	  <input className = {styles.pnc_input} type = "text" placeholder = "Enter personal numeric code" name = "pnc"/>
+	</div> 
+
+	<label className = {styles.id_label} for = "ID">Photo of identity card</label>
+	<div className = {styles.id_div}>
+	  <input className = {styles.id_input} type = "file" name = "ID"/>
+	</div>
+
+	<label className = {styles.phonenr_label} for = "phonenr">Phone number</label>
+	<div className = {styles.phonenr_div}>
+	  <input className = {styles.phonenr_input} type = "text" placeholder = "Enter phone number" name = "phonenr"/>
+	</div> 
+	
+	<label className = {styles.phonenrs_label} for = "phonenrs">Phone numbers in case of emergency</label>
+	<div className = {styles.phonenrs_div}>
+	  <input className = {styles.phonenrs_input} type = "text" placeholder = "Enter phone number" name = "phonenrs"/>
+	</div> 
+	<div className = {styles.phonenrs_div}>
+	  <input className = {styles.phonenrs_input} type = "text" placeholder = "Enter phone number" name = "phonenrs"/>
+	</div> 
+
+	<label className = {styles.blood_label} for = "blood">Would you accept a blood transfusion?</label>
+	<div className = {styles.blood_div}>
+	  <input className = {styles.blood_input} type = "radio" name = "blood">Yes</input>
+	</div>
+	<div className = {styles.blood_div}>
+	  <input className = {styles.blood_input} type = "radio" name = "blood">No</input>
+	</div>
+
+	<label className = {styles.medtests_label} for = "medtests">Upload a PDF with your last medical tests</label>
+	<div className = {styles.medtests_div}>
+	  <input className = {styles.medtests_input} type = "file" name = "medtests"/>
+	</div>
+
+	<label className = {styles.description_label} for = "description">Details about your allergies, disorders, chronic illnesses, medicine you take etc.</label>
+	<div className = {styles.description_div}>
+	  <input className = {styles.description_input} type = "text" placeholder = "Description" name = "description"/>
+	</div> 
+      </div>
+      <div className = {styles.Container2}>
+	<button className = {styles.button} type = "submit">Submit changes</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
