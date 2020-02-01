@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" href = "style.css">
+  <meta charset="UTF-8">
+  <title> Doctor profile </title>
+  <meta name = "description" content = " ">
+  <meta name = "keywords" content = "medical, report, medical history, doctor, patient, illness, heal, health, e-health, diagnostic, prescription, treatement, emergency, emergency room, hospital, sick, sickness, illness, medical test, results">
+  <meta name = "author" content = "Draganescu Ioana-Lisandra, Palagesiu Cezar-Ioan, Poenaru Diana-Mihaela">
+  <meta http-equiv="refresh" content="500">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div className = {styles.menu}>
+    <a className = {styles.menulogin} href = "login.html">Login</a>
+    <a className = {styles.menusignup} href = "signup.html">Sign up</a>
+    <a className = {styles.menuprofile} href = "userprofile.html">Your profile</a>
+    <button className = {styles.logout} type = "submit">Logout</button>
+    <input className = {styles.search} type = "text" placeholder = "Search" name = "search">
+  </div>
+  <div className = {styles.Container1}>
+    <div className = {styles.Container2}>
+      <h1 className = {styles.headline}> Your profile </h1>
+    </div>
+    <div className = {styles.Container2}>
+      <p> First name: </p>
+      <!----> 
+      <p> Last name: </p>
+      <!----> 
+      <p> Hospital/office name: </p>
+      <!----> 
+      <p> Hospital/office address: <p>
+      <!----> 
+      <p> Phone number: </p>
+      <!----> 
+      <p> Photo of identity card:</p>
+      <!----> 
+      <p> Profile photo: </p>
+      <!----> 
+      <p> Gender: </p>
+      <!----> 
+      <p> Description and experience in the medical field: </p>
+      <!----> 
+    </div>
+    <div className = {styles.Container2}>
+	<a className = {styles.gotoedit} href = "editdoctorprofile.html">Edit profile</a>
+    </div>
+  </div>
+</body>
+</html>
