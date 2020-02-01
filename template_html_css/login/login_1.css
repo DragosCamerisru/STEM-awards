@@ -1,0 +1,20 @@
+body,html,head{
+    background-image: url(./inima.png);
+    background-color: #cccccc;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-overflow-scrolling:touch;
+  
+  }
+  div{
+    width: 50%;
+  }
