@@ -1,0 +1,55 @@
+html,head{
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-overflow-scrolling:touch;
+    overflow-x: hidden;
+  }
+
+div{
+    width: 100%;
+  }
+
+div,label,p,h4,span,input{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Container1{
+    background-color: #FFFFFF;
+    width: 120vh;
+    height: 93vh;
+    position: relative;
+    left: 21.5%;
+}
+.ContainerL{
+    float: left;
+}
+.ContainerR{
+    float: left;
+}
+
+/* input[type=text],input[type=password]{
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 40%;
+    height: 40px;
+    border : none;
+    border-bottom: 1.5px solid #757575;
+    font-size: 90%;
+    padding-left: 10px;
+    left: 1%;
+    outline: #0059b3;
+    margin-top: 6px;
+  }
+  input[type=text]:hover,input[type=password]:hover,input[type=text]:focus,input[type=password]:focus{
+    transition: 1s;
+    opacity: 1;
+    border-bottom: 1.5px solid #0059b3;
+    outline: #0059b3;
+  } */
+
